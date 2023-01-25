@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Forms">
+    <test verbose="2" preserve-order="true" name="C:/Users/asrba/Documents/UI_framework_Practice">
+        <classes>
+            <class name="HomeWork.GlovoWebApp">
+                <methods>
+                    <include name="goToRegistrBlock"/>
+                    <include name="checkTextInRegistryPopUp"/>
+                    <include name="registryIfFieldIsEmpty"/>
+                    <include name="useSpaceInField"/>
+                    <include name="registerInPopUp"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
